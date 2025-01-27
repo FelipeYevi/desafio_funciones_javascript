@@ -1,26 +1,50 @@
-#color1{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    
 }
-#color2{
-    width: 200px;
-    height: 200px;
-    background-color: red;
+#color1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
 }
-#color3{
-    width: 200px;
-    height: 200px;
-    background-color: green;
+#color2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
 }
-#color4{
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
+#color3 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+#color4 {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
 }
 
-#colors-section{
+#colors-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.key-container {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 100px;
+  min-width: 100vh;
+}
+#key {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+#contenedor{
     display: flex;
-justify-content: center;
-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
